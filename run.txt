@@ -1,0 +1,69 @@
+1. Enter a line of text containing the world 'java' somewhere within it.
+Using java is fun!
+3. You entered the following text: Using java is fun!
+4. The number of characters in your line is:  18
+5. All lowercase is: using java is fun!
+6. All uppercase is: USING JAVA IS FUN!
+7. Found 'java' at pos: 6
+8. Changing to 'Java': Using Java is fun!
+9. Changing to 'JAVA': Using JAVA is fun!
+
+yass@DESKTOP-3AH2ANP MINGW64 /g/CS/SCHOOL/NOW/UMASS/INFO2970/week1/Assignement1
+$ java Assignment1
+1. Enter a line of text containing the world 'java' somewhere within it.
+java is cool!
+3. You entered the following text: java is cool!
+4. The number of characters in your line is:  13
+5. All lowercase is: java is cool!
+6. All uppercase is: JAVA IS COOL!
+7. Found 'java' at pos: 0
+8. Changing to 'Java': Java is cool!
+9. Changing to 'JAVA': JAVA is cool!
+
+yass@DESKTOP-3AH2ANP MINGW64 /g/CS/SCHOOL/NOW/UMASS/INFO2970/week1/Assignement1
+$ java Assignment1
+1. Enter a line of text containing the world 'java' somewhere within it.
+Try just using java
+3. You entered the following text: Try just using java
+4. The number of characters in your line is:  19
+5. All lowercase is: try just using java
+6. All uppercase is: TRY JUST USING JAVA
+7. Found 'java' at pos: 15
+8. Changing to 'Java': Try just using Java
+9. Changing to 'JAVA': Try just using JAVA
+
+yass@DESKTOP-3AH2ANP MINGW64 /g/CS/SCHOOL/NOW/UMASS/INFO2970/week1/Assignement1
+$ java Assignment1
+1. Enter a line of text containing the world 'java' somewhere within it.
+I love Java
+3. You entered the following text: I love Java
+4. The number of characters in your line is:  11
+5. All lowercase is: i love java
+6. All uppercase is: I LOVE JAVA
+7. 'java' not found.
+
+yass@DESKTOP-3AH2ANP MINGW64 /g/CS/SCHOOL/NOW/UMASS/INFO2970/week1/Assignement1
+$ java Assignment1
+1. Enter a line of text containing the world 'java' somewhere within it.
+I love java
+3. You entered the following text: I love java
+4. The number of characters in your line is:  11
+5. All lowercase is: i love java
+6. All uppercase is: I LOVE JAVA
+7. Found 'java' at pos: 7
+8. Changing to 'Java': I love Java
+9. Changing to 'JAVA': I love JAVA
+
+yass@DESKTOP-3AH2ANP MINGW64 /g/CS/SCHOOL/NOW/UMASS/INFO2970/week1/Assignement1
+$ java Assignment1
+1. Enter a line of text containing the world 'java' somewhere within it.
+Learning java is interesting.
+3. You entered the following text: Learning java is interesting.
+4. The number of characters in your line is:  29
+5. All lowercase is: learning java is interesting.
+6. All uppercase is: LEARNING JAVA IS INTERESTING.
+7. Found 'java' at pos: 9
+8. Changing to 'Java': Learning Java is interesting.
+9. Changing to 'JAVA': Learning JAVA is interesting.
+
+

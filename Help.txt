@@ -1,0 +1,51 @@
+For keyboard input, you'll need to use Java's Scanner class (see the Java API).. To create a Scanner that can read from the keyboard, use the following line of code at the beginning of your main() method::
+Scanner keyboardScanner = new Scanner(System.in);
+
+You'll also need the following import as the first line of your source file (before your class)::
+
+import java.util.Scanner;
+
+If you need to keep the console window active in order to cut/paste the output for emailing with your Java source code, add the following code at the end of the main() method:
+
+  // Keep console window alive until 'enter' pressed 
+  System.out.println();
+  System.out.println("Done - press enter key to end program");
+  String junk = keyboardScanner.nextLine();
+
+Using the Java API for class String
+Java provides a large set of standard classes that can do a lot of work for you - classes for networking, database access, GUI interfaces, input/output, security, etc. These are documented in the Java API (Application Programming Interface) available online at http://download.oracle.com/javase/8/docs/api/.  For this assignment, you'll be using Java's String class and Scanner class.  To view the methods that can be used with Strings, go to the Java API web page, scroll down in the "All Classes" frame until you find the "String" class name, and click on it.  The String class description and list of methods will appear in the main frame.
+
+Since you'll probably be referring to the Java API when you're working on assignments, bookmark it in your browser.
+
+Example Output
+Enter a line of text containing the word 'java' somewhere within it.
+I'm learning java at UMass this semester!
+
+The string read is:  I'm learning java at UMass this semester!
+Length in chars is:  41
+All lowercase is:    i'm learning java at umass this semester!
+All uppercase is:    I'M LEARNING JAVA AT UMASS THIS SEMESTER!
+Found 'java' at pos: 13
+Changing to 'Java':  I'm learning Java at UMass this semester!
+Changing to 'JAVA':  I'm learning JAVA at UMass this semester!
+
+Done - press enter key to end program
+
+Test Data
+Test with each the following examples, plus a couple of your own.
+
+Using java is fun!
+java is cool!
+Try just using java
+
+Got Compile Errors?
+For descriptions of common compile errors and how to fix them, see the following sites:
+
+Common Problems (and Their Solutions)
+http://mindprod.com/jgloss/errormessages.html
+Tackling Error Messages In Java Programming
+You might want to bookmark one of these sites in your browser.
+
+Before Submitting this assignment!
+Before submitting this assignment, read the section "Assignments: Overview and Submission Requirements" at the beginning of this module for the details on how to submit assignments.  Include the output for all the test data provided above as a separate .txt file..
+

@@ -1,0 +1,21 @@
+
+Assignment 1 - Strings, Interactive I/O
+
+Skills
+Basic Java program structure
+Primitive and String variables
+String class methods
+Interactive Input with the Java Scanner class
+Description
+Write your first Java program to do the following:
+
+1. Prompt the user to enter a line of text containing the word 'java' somewhere within it
+2. Read the line of text  (using the Scanner class nextLine method).
+3. Print the line of text entered.
+4. Print the number of characters in the line (use the String class length() method)
+5. Print the line in lowercase (use the String class toLowerCase() method)
+6. Print the line in uppercase (use the String class toUpperCase() method)
+7. Locate the first occurance of 'java' (use the String class indexOf() method), print the position value, and save it in a variable for the next step 
+8. Print the line with 'java' changed to 'Java'. 
+Note: use the String class substring() method to get the text before 'java', and again to get the text after 'java', then print the result of concatenating before-text + "Java" + after-text. You'll' need to use the position variable saved in the previous step when calling substring. Do not use the replace() method.
+9. Print the line with 'java' changed to 'JAVA' (use the same logic as the previous step)
